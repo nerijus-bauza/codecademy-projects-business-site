@@ -1,6 +1,7 @@
 # Solution to Codecademy Challenge Project "Company Home Page with Flexbox"
 
-This is a solution to the [Codecademy](https://www.codecademy.com). Codecademy Challenge Project "Company Home Page with Flexbox".
+This is a solution to the [Codecademy](https://www.codecademy.com) Challenge Project "Company Home Page with Flexbox".
+It is a open-ended challenge, so the project is done from scratch. I used lorem generator for text and unsplash for images.
 
 ## Table of contents
 
@@ -10,6 +11,7 @@ This is a solution to the [Codecademy](https://www.codecademy.com). Codecademy C
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -41,6 +43,23 @@ This is a solution to the [Codecademy](https://www.codecademy.com). Codecademy C
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+
+### What I learned
+
+- I learned how to use unsplash to generate random thematic images.
+- How to overlay background image by using linear-gradient
+- How to set background image as variable
+
+```css
+:root {
+  --bg-image-cta-url: url('https://source.unsplash.com/1600x900/?nature,bees');
+}
+.cta {
+  background:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    var(--bg-image-cta-url) no-repeat;
+}
+```
 
 ## Author
 

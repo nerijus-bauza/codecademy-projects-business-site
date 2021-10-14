@@ -20,11 +20,13 @@ This is a solution to the [Codecademy](https://www.codecademy.com). Codecademy C
 
 ### Screenshot
 
-- Mobile preview 375x812:<br>
-![](./screenshots/mobile-screenshot.png)
+- Mobile preview 375x812:
 
-- Desktop preview 1908x1000:<br>
-![](./screenshots/desktop-screenshot.png)
+![mobile screenshot](./screenshots/mobile-screenshot.png)
+
+- Desktop preview 1908x1000:
+
+![desktop screenshot](./screenshots/desktop-screenshot.png)
 
 ### Links
 

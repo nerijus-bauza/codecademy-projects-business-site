@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Flexbox Business Site</title>
@@ -14,8 +15,9 @@
     <nav class="nav">
       <a class="nav__logo" href="#">L<span class="accent">o</span>g<span class="accent">o</span></a>
       <ul class="nav__items">
+        
+        <li class="nav__item mobile-hidden"><a href="#products" class="nav__link">Products</a></li>
         <li class="nav__item mobile-hidden"><a href="#about" class="nav__link">About Us</a></li>
-        <li class="nav__item mobile-hidden"><a href="#products" class="nav__link">Products</a></li>        
         <li class="nav__item"><a href="#contact" class="nav__link button">Contact Us</a></li>
       </ul>
     </nav>
@@ -23,10 +25,10 @@
 
   <main class="main">
 
-    <section class="about" id="about">
-      <h1 class="about__title">L<span class="accent">o</span>r<span class="accent">e</span>m ipsum d<span class="accent">o</span>l<span class="accent">o</span>r</h1>
-      <p class="about__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus velit, natus nostrum consequuntur ipsa porro.</p>
-      <a href="#products" class="about__button button">Choose product</a>
+    <section class="cta" id="cta">
+      <h1 class="cta__title">L<span class="accent">o</span>r<span class="accent">e</span>m ipsum d<span class="accent">o</span>l<span class="accent">o</span>r</h1>
+      <p class="cta__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus velit, natus nostrum consequuntur ipsa porro.</p>
+      <a href="#products" class="cta__button button">Choose product</a>
     </section>
 
     <section class="products" id="products">
@@ -133,6 +135,43 @@
         </div>
         
       </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="about__title">Ab<span class="accent">o</span>ut Us</h2>
+      <p class="about__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nulla, totam culpa deleniti animi soluta facilis illum. Fugiat optio corporis quibusdam nemo libero, incidunt repudiandae modi similique iste aspernatur beatae consectetur maiores in velit voluptates nesciunt voluptas. Obcaecati quod alias accusantium magnam voluptatum. Voluptas, nobis!</p>
+
+      <div class="about__cards">        
+        <div class="card">
+          <div class="card__wraper">            
+            <div class="card__top">
+              <h4 class="card__title">Lorem ipsum</h4>
+              <img class="card__img" src="https://source.unsplash.com/500x700/?corporate,portrait?sig=1" alt="portrait">
+            </div>
+            <div class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque.</div>
+          </div>          
+        </div>
+
+        <div class="card">
+          <div class="card__wraper">            
+            <div class="card__top">
+              <h4 class="card__title">Lorem ipsum</h4>
+              <img class="card__img" src="https://source.unsplash.com/500x700/?corporate,portrait?gig=78" alt="portrait">
+            </div>
+            <div class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque.</div>
+          </div>          
+        </div>
+
+        <div class="card">
+          <div class="card__wraper">            
+            <div class="card__top">
+              <h4 class="card__title">Lorem ipsum</h4>
+              <img class="card__img" src="https://source.unsplash.com/500x700/?corporate,portrait?lig=123" alt="portrait">
+            </div>
+            <div class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque.</div>
+          </div>          
+        </div>
+
     </section>
 
   </main>
